@@ -108,7 +108,7 @@ function getNewHero() {
     const heroArr = data;
     const heroIndex = Math.floor(Math.random() * heroArr.length);
     const randomHero = heroArr[heroIndex];
-    const tempOutput = WHISPER + GET_HERO_MESSAGE + randomHero + PAUSE;
+    const tempOutput = WHISPER + FACT_CHECK_MESSAGE + randomHero + PAUSE;
     const speechOutput = welcomeSpeechOutput + tempOutput + MORE_MESSAGE
     const more = MORE_MESSAGE
 
